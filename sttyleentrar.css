@@ -1,0 +1,102 @@
+.menu {
+    /*margin-top: 5px;*/
+    background-color: #071d60;
+}
+
+p {
+    text-align: center;
+    padding: 15px;
+}
+
+/*CENTRALIZAR A BARRA DE PESQUISA*/
+.senha {
+    margin-top: 200px;
+    font-size: 48px;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+
+}
+
+.login {
+    margin-top: 120px;
+}
+
+body {
+    background: linear-gradient(90deg, #071d60 10%, #0868b1 50%, #071d60 100.37%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    margin-top: 0em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+input {
+    padding: 10px;
+    margin-left: 75px;
+    border: rgb(255, 255, 255, 0.50);
+    border-radius: 5px;
+    background-color: rgba(179, 161, 161, 0.556);
+}
+
+.digitar::placeholder {
+    display: block;
+}
+
+.box {
+    background: rgb(0, 0, 0, 60%);
+    border-radius: 10px;
+    box-shadow: 2px 15px 30px rgba(255, 255, 255, 0.607);
+    margin-right: 600px;
+    margin-left: 600px;
+    height: 295px;
+}
+
+a {
+    display: flex;
+    margin-left: 127px;
+    padding: 8px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #597deb;
+    text-shadow: rgba(0, 0, 0, 0.25);
+}
+
+header {
+    background: #071d60;
+    padding: 2.5em 2em;
+    /* padding: 0px 220px;
+    margin-bottom: 50px;*/
+    position: relative
+}
+
+.Criar_conta {
+    text-decoration-line: none;
+    margin-right: 9px;
+    display: flex;
+    margin-left: 40em;
+    margin-top: 4px;
+    text-shadow: 2px 2px 17px #ffff;
+    font-size: 25px
+}
+
+.recuar {
+    background-color: #071d60;
+}
+
+footer {
+    background: #071d60;
+    margin-top: 7.5em;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    position: flex;
+}
+
+.login{
+    margin-left: 15px;
+    font-size: 50px;
+    margin-top: 45px;
+    transform: translate(50px, 20px, 20px);
+}

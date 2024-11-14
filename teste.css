@@ -1,0 +1,124 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-image: url(LOGOTIPO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 20% solid black;
+    background:linear-gradient(90deg, #071d60 10%, #000000 50% , #071d60 100.37%);
+    text-shadow: white;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Libre_Baskerville variant0', Tofu;
+    color: rgba(255, 255, 255,0.50);
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.botoes {
+    background-color: transparent;
+    border-radius: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 735px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 100%;
+    margin-right: 50px;
+    margin-left: 30px;
+
+}
+   
+.botao-1 {
+    width: 12rem;
+    /*largura*/
+    position: relative;
+    height: 3em;
+    /*altura*/
+    /*borda*/
+    outline: none;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    transition: 2s;
+    border-radius: 9%;
+    font-size: 150%;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+.botao-2 {
+    width: 12rem;
+    /*largura*/
+    position: relative;
+    height: 3em;
+    /*altura*/
+    /*borda*/
+    outline: none;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255);
+    color: black;
+    transition: 2s;
+    border-radius: 9%;
+    font-size: 150%;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.botoes:hover {
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    box-shadow: inset 10px 5px 60px rgb(37, 2, 141, 0.80);
+    
+}
+
+
+
+.botao__2 {
+    border:rgba(211,211,211,0.50);
+    padding: 10px 15px;
+    width: 13rem;
+    position: relative;
+    height: 5rem;
+    outline: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(255, 246, 246);
+    color: black;
+    transition: 1.5s;
+    border-radius: 9%;
+    font-size: 150%;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 30px; 
+
+}
+
+.botao_3 {
+    border:rgba(255, 255, 255, 0.5);
+    padding: 10px 12px;
+    width: 12rem;
+    position: relative;
+    height: 4rem;
+    outline: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(255, 252, 252);
+    color: black;
+    transition: 1.5s;
+    border-radius: 9%;
+    font-size: 120%;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 30px;
+}
